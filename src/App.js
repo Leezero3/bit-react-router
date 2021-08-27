@@ -1,12 +1,7 @@
 import React from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom'
-import Join from './components/Join'
-import CourseRegister from './components/CourseRegister'
-import Login from './components/Login'
-import OnlineProfiles from './components/OnlineProfiles'
-import SchoolStatus from './components/SchoolStatus'
-import Home from './components/Home'
-import Navi from './components/Navi'
+
+import {Join, CourseRegister, Login, OnlineProfiles, Home, Navi, SchoolStatus} from 'components/index'
 
 import Basic from './modern-javascript/chap-01-basic/Basic';
 import ArrowFunction from './modern-javascript/chap-02-arrow-function/ArrowFunction'
@@ -69,8 +64,7 @@ const App = () =>  (<>
     <Route exact path = '/ES2018' component = {ES2018}/>
     <Route exact path = '/ES2019' component = {ES2019}/>
     <Route exact path = '/ES2020' component = {ES2020}/>
-    <Route exact path = '/typescript' component = {Typescript}/>
-   
+    <Route exact path = '/typescript' component = {Typescript}/> 
   
   
     </Switch>

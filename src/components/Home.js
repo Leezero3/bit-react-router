@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/first.jpg'
-import Navi from './Navi';
+
 const Home = () => (
 
     <div>
@@ -13,4 +13,4 @@ const Home = () => (
 )
 
 
-export default Home;
+export default Home
